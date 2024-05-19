@@ -85,5 +85,5 @@ module.exports = {
     getAllNotes,
     updateNotes,
     deleteNotes,
-    pool // Export the pool object for use in other modules
+    pool 
 };

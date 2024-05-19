@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import './styles.css'; // Impor file CSS
+import './styles.css'; 
 
 const Notes = () => {
   const [notes, setNotes] = useState([]);
